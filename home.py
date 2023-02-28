@@ -3,7 +3,6 @@ from PIL import Image
 import numpy as np 
 import pandas as pd
 from PIL import Image
-from streamlit_timeline import timeline
 import plotly.express as px
 import plotly.figure_factory as ff
 import requests
@@ -21,9 +20,10 @@ st.title('welcome to my App')
 
 st.title('HI, this is **:blue[AISHWARYA PAWAR]**')
 st.subheader('Data Science Enthusiastic')
-st.title('Data Scince Intern At :red[INNOMATICS] RESEARCH LAB')
+st.title('Data Science Intern At :red[INNOMATICS] RESEARCH LAB')
 st.subheader('Wish to connect?')
 st.write('Email: aishwaryapwar399@gmail.com')
 st.write('Linkedin:https://www.linkedin.com/in/aishwarya-pawar-733a97231')
 st.write('github:https://github.com/pawar-aishwarya')
+
 
